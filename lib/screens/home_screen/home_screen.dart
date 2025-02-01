@@ -34,7 +34,7 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         // Título basado no dia atual
         title: Text(
-          "${currentDay.day}  |  ${currentDay.month}  |  ${currentDay.year}",
+          "${currentDay.day.toString().padLeft(2, '0')}  |  ${currentDay.month.toString().padLeft(2, '0')}  |  ${currentDay.year}",
         ),
       ),
       body: ListView(
