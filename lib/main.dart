@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:journal/services/journal_service.dart';
 import 'screens/home_screen/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
+
+  JournalService service = JournalService();
+  service.register("registro");
 }
 
 class MyApp extends StatelessWidget {
