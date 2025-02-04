@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:journal/screens/add_journal_screen/add_journal_screen.dart';
 import 'package:journal/services/journal_service.dart';
+import 'models/journal.dart';
 import 'screens/home_screen/home_screen.dart';
 
 void main() {
@@ -24,15 +26,23 @@ class MyApp extends StatelessWidget {
           elevation: 0,
           titleTextStyle: TextStyle(
             color: Colors.white,
-          )
+          ),
+          actionsIconTheme: IconThemeData(color: Colors.white),
         ),
         textTheme: GoogleFonts.bitterTextTheme(),
       ),
       darkTheme: ThemeData.dark(),
       themeMode: ThemeMode.light,
-      initialRoute: "home",
+      initialRoute: "add-journal",
       routes: {
         "home": (context) => const HomeScreen(),
+        "add-journal": (context) => AddJournalScreen(journal: Journal(
+            id: 'id',
+            content: 'content',
+            createdAt: DateTime.now(),
+            updatedAt: DateTime.now(),
+
+        ),),
       },
     );
   }
