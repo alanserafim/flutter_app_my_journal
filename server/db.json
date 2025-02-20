@@ -1,68 +1,22 @@
 {
-  "learnhttp": [
+  "journals": [
     {
-      "id": "cbbc",
-      "content": "teste"
+      "id": "9a5eda40-ef7e-11ef-b860-5131959ace45",
+      "content": "Hoje foi dose. Quase fui de americanas.",
+      "created_at": "2025-02-14 11:33:59.769943",
+      "update_at": "2025-02-14 11:33:59.769943"
     },
     {
-      "id": "183a",
-      "content": "teste"
+      "id": "f991bb90-ef7e-11ef-8af0-83c9f89828da",
+      "content": "Hoje eu aprendi coisas novas",
+      "created_at": "2025-02-13 11:33:59.769943",
+      "update_at": "2025-02-13 11:33:59.769943"
     },
     {
-      "id": "14ce",
-      "content": "teste"
-    },
-    {
-      "id": "868c",
-      "content": "teste"
-    },
-    {
-      "id": "b331",
-      "content": "registro"
-    },
-    {
-      "id": "b048",
-      "content": "registro"
-    },
-    {
-      "id": "e0db",
-      "content": "registro"
-    },
-    {
-      "id": "a983",
-      "content": "registro"
-    },
-    {
-      "id": "399a",
-      "content": "registro"
-    },
-    {
-      "id": "6e6c",
-      "content": "registro"
-    },
-    {
-      "id": "949d",
-      "content": "registro"
-    },
-    {
-      "id": "703d",
-      "content": "registro"
-    },
-    {
-      "id": "d5d2",
-      "content": "registro"
-    },
-    {
-      "id": "91d0",
-      "content": "registro"
-    },
-    {
-      "id": "fc67",
-      "content": "registro"
-    },
-    {
-      "id": "f8a9",
-      "content": "registro"
+      "id": "e0644f10-ef7f-11ef-926d-1b56e5f4bdd9",
+      "content": "Que coisas noa",
+      "created_at": "2025-02-12 11:33:59.769943",
+      "update_at": "2025-02-12 11:33:59.769943"
     }
   ]
 }
