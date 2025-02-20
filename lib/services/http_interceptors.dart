@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 import 'package:http/http.dart';
 import 'package:http_interceptor/models/interceptor_contract.dart';
 import 'package:logger/logger.dart';

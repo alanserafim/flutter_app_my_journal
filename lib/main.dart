@@ -8,12 +8,12 @@ import 'screens/home_screen/home_screen.dart';
 void main() {
   runApp(const MyApp());
 
-  // JournalService service = JournalService();
-  // service.register(Journal.empty());
+  JournalService service = JournalService();
+  service.getAll();
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+  const MyApp({super.key});
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -45,6 +45,7 @@ class MyApp extends StatelessWidget {
             return AddJournalScreen(journal: journal);
           });
         }
+        return null;
       },
     );
   }
